@@ -52,6 +52,9 @@ public:
   /// @brief Set SagittaCorrPhaseSpace18 property if different than -1
   int m_sagittaCorrPhaseSpace18 = -1;
 
+  //muon calibration mode setting for the calibration tool, default to 0
+  int m_calibrationMode = 0;
+
   // sort after calibration
   bool m_sort = true;
 
